@@ -4,3 +4,6 @@
 [submodule "RV32I-Single-Cycle"]
 	path = RV32I-Single-Cycle
 	url = https://github.com/Abdul-muheet-ghani/RV32I-Single-Cycle.git
+[submodule "UART-for-keyboard-interface"]
+	path = UART-for-keyboard-interface
+	url = https://github.com/Abdul-muheet-ghani/UART-for-keyboard-interface.git
