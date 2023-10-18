@@ -1,0 +1,3 @@
+[submodule "VGA-controller"]
+	path = VGA-controller
+	url = https://github.com/Abdul-muheet-ghani/VGA-controller.git
