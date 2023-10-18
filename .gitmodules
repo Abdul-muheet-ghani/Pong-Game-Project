@@ -1,3 +1,6 @@
 [submodule "VGA-controller"]
 	path = VGA-controller
 	url = https://github.com/Abdul-muheet-ghani/VGA-controller.git
+[submodule "RV32I-Single-Cycle"]
+	path = RV32I-Single-Cycle
+	url = https://github.com/Abdul-muheet-ghani/RV32I-Single-Cycle.git
