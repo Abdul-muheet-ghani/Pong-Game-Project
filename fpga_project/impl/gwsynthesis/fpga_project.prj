@@ -9,13 +9,13 @@
         <File path="/home/muheet-ghani/fpga_project/src/gowin_clkdiv.v" type="verilog"/>
         <File path="/home/muheet-ghani/fpga_project/src/gowin_rpll.v" type="verilog"/>
         <File path="/home/muheet-ghani/fpga_project/src/paddle.v" type="verilog"/>
+        <File path="/home/muheet-ghani/fpga_project/src/points.v" type="verilog"/>
+        <File path="/home/muheet-ghani/fpga_project/src/score.v" type="verilog"/>
         <File path="/home/muheet-ghani/fpga_project/src/text.v" type="verilog"/>
         <File path="/home/muheet-ghani/fpga_project/src/uart_rx.v" type="verilog"/>
         <File path="/home/muheet-ghani/fpga_project/src/uart_top.v" type="verilog"/>
         <File path="/home/muheet-ghani/fpga_project/src/uart_tx.v" type="verilog"/>
         <File path="/home/muheet-ghani/fpga_project/src/vga_top.v" type="verilog"/>
-        <File path="/home/muheet-ghani/fpga_project/src/score.v" type="verilog"/>
-        <File path="/home/muheet-ghani/fpga_project/src/points.v" type="verilog"/>
     </FileList>
     <OptionList>
         <Option type="disable_insert_pad" value="0"/>

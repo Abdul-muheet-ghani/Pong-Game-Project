@@ -21,6 +21,14 @@
    "Type" : "verilog"
   },
   {
+   "Path" : "/home/muheet-ghani/fpga_project/src/points.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "/home/muheet-ghani/fpga_project/src/score.v",
+   "Type" : "verilog"
+  },
+  {
    "Path" : "/home/muheet-ghani/fpga_project/src/text.v",
    "Type" : "verilog"
   },
@@ -38,14 +46,6 @@
   },
   {
    "Path" : "/home/muheet-ghani/fpga_project/src/vga_top.v",
-   "Type" : "verilog"
-  },
-  {
-   "Path" : "/home/muheet-ghani/fpga_project/src/score.v",
-   "Type" : "verilog"
-  },
-  {
-   "Path" : "/home/muheet-ghani/fpga_project/src/points.v",
    "Type" : "verilog"
   }
  ],

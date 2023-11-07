@@ -7,35 +7,38 @@ module points(
 
     parameter START_Y_LOC = 15;
     parameter END_Y_LOC = 20;
-    parameter START_X_LOC_P1_1 = 3;
+
+    parameter P2_GAPE = 103;
+
+    parameter START_X_LOC_P1_1 = 4;
     parameter END_X_LOC_P1_1 = 9;
 
-    parameter START_X_LOC_P1_2 = 5;
-    parameter END_X_LOC_P1_2 = 11;
+    parameter START_X_LOC_P1_2 = 9;
+    parameter END_X_LOC_P1_2 = 14;
 
-    parameter START_X_LOC_P1_3 = 4;
-    parameter END_X_LOC_P1_3 = 9;
+    parameter START_X_LOC_P1_3 = 14;
+    parameter END_X_LOC_P1_3 = 19;
 
-    parameter START_X_LOC_P1_4 = 4;
-    parameter END_X_LOC_P1_4 = 9;
+    parameter START_X_LOC_P1_4 = 19;
+    parameter END_X_LOC_P1_4 = 24;
 
-    parameter START_X_LOC_P1_5 = 4;
-    parameter END_X_LOC_P1_5 = 9;
+    parameter START_X_LOC_P1_5 = 24;
+    parameter END_X_LOC_P1_5 = 29;
 
-    parameter START_X_LOC_P2_1 = 4;
-    parameter END_X_LOC_P2_1 = 9;
+    parameter START_X_LOC_P2_1 = 29 + P2_GAPE;
+    parameter END_X_LOC_P2_1 = 34 + P2_GAPE;
 
-    parameter START_X_LOC_P2_2 = 4;
-    parameter END_X_LOC_P2_2 = 9;
+    parameter START_X_LOC_P2_2 = 34 + P2_GAPE;
+    parameter END_X_LOC_P2_2 = 39 + P2_GAPE;
 
-    parameter START_X_LOC_P2_3 = 4;
-    parameter END_X_LOC_P2_3 = 9;
+    parameter START_X_LOC_P2_3 = 39 + P2_GAPE;
+    parameter END_X_LOC_P2_3 = 44 + P2_GAPE;
 
-    parameter START_X_LOC_P2_4 = 4;
-    parameter END_X_LOC_P2_4 = 9;
+    parameter START_X_LOC_P2_4 = 44 + P2_GAPE;
+    parameter END_X_LOC_P2_4 = 49 + P2_GAPE;
 
-    parameter START_X_LOC_P2_5 = 4;
-    parameter END_X_LOC_P2_5 = 9;
+    parameter START_X_LOC_P2_5 = 49 + P2_GAPE;
+    parameter END_X_LOC_P2_5 = 54 + P2_GAPE;
 
     wire draw_points_p1_1, draw_points_p1_2, draw_points_p1_3, draw_points_p1_4, draw_points_p1_5, draw_points_p2_1, draw_points_p2_2, draw_points_p2_3, draw_points_p2_4, draw_points_p2_5;
 

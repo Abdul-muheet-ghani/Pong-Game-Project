@@ -5,13 +5,13 @@ Analyzing Verilog file '/home/muheet-ghani/fpga_project/src/frame.v'
 Analyzing Verilog file '/home/muheet-ghani/fpga_project/src/gowin_clkdiv.v'
 Analyzing Verilog file '/home/muheet-ghani/fpga_project/src/gowin_rpll.v'
 Analyzing Verilog file '/home/muheet-ghani/fpga_project/src/paddle.v'
+Analyzing Verilog file '/home/muheet-ghani/fpga_project/src/points.v'
+Analyzing Verilog file '/home/muheet-ghani/fpga_project/src/score.v'
 Analyzing Verilog file '/home/muheet-ghani/fpga_project/src/text.v'
 Analyzing Verilog file '/home/muheet-ghani/fpga_project/src/uart_rx.v'
 Analyzing Verilog file '/home/muheet-ghani/fpga_project/src/uart_top.v'
 Analyzing Verilog file '/home/muheet-ghani/fpga_project/src/uart_tx.v'
 Analyzing Verilog file '/home/muheet-ghani/fpga_project/src/vga_top.v'
-Analyzing Verilog file '/home/muheet-ghani/fpga_project/src/score.v'
-Analyzing Verilog file '/home/muheet-ghani/fpga_project/src/points.v'
 Compiling module 'top'("/home/muheet-ghani/fpga_project/src/vga_top.v":2)
 Compiling module 'Gowin_rPLL'("/home/muheet-ghani/fpga_project/src/gowin_rpll.v":10)
 Compiling module 'Gowin_CLKDIV'("/home/muheet-ghani/fpga_project/src/gowin_clkdiv.v":10)
@@ -47,9 +47,16 @@ Compiling module 'text(END_Y_LOC=13)'("/home/muheet-ghani/fpga_project/src/text.
 Compiling module 'frame(START_Y_LOC=14,END_Y_LOC=21)'("/home/muheet-ghani/fpga_project/src/frame.v":23)
 Compiling module 'frame(START_Y_LOC=21,END_Y_LOC=119)'("/home/muheet-ghani/fpga_project/src/frame.v":23)
 Compiling module 'points'("/home/muheet-ghani/fpga_project/src/points.v":1)
-Compiling module 'frame(START_Y_LOC=15,START_X_LOC=3,END_X_LOC=9)'("/home/muheet-ghani/fpga_project/src/frame.v":23)
-Compiling module 'frame(START_Y_LOC=15,START_X_LOC=5,END_X_LOC=11)'("/home/muheet-ghani/fpga_project/src/frame.v":23)
 Compiling module 'frame(START_Y_LOC=15,START_X_LOC=4,END_X_LOC=9)'("/home/muheet-ghani/fpga_project/src/frame.v":23)
+Compiling module 'frame(START_Y_LOC=15,START_X_LOC=9,END_X_LOC=14)'("/home/muheet-ghani/fpga_project/src/frame.v":23)
+Compiling module 'frame(START_Y_LOC=15,START_X_LOC=14,END_X_LOC=19)'("/home/muheet-ghani/fpga_project/src/frame.v":23)
+Compiling module 'frame(START_Y_LOC=15,START_X_LOC=19,END_X_LOC=24)'("/home/muheet-ghani/fpga_project/src/frame.v":23)
+Compiling module 'frame(START_Y_LOC=15,START_X_LOC=24,END_X_LOC=29)'("/home/muheet-ghani/fpga_project/src/frame.v":23)
+Compiling module 'frame(START_Y_LOC=15,START_X_LOC=132,END_X_LOC=137)'("/home/muheet-ghani/fpga_project/src/frame.v":23)
+Compiling module 'frame(START_Y_LOC=15,START_X_LOC=137,END_X_LOC=142)'("/home/muheet-ghani/fpga_project/src/frame.v":23)
+Compiling module 'frame(START_Y_LOC=15,START_X_LOC=142,END_X_LOC=147)'("/home/muheet-ghani/fpga_project/src/frame.v":23)
+Compiling module 'frame(START_Y_LOC=15,START_X_LOC=147,END_X_LOC=152)'("/home/muheet-ghani/fpga_project/src/frame.v":23)
+Compiling module 'frame(START_Y_LOC=15,START_X_LOC=152,END_X_LOC=157)'("/home/muheet-ghani/fpga_project/src/frame.v":23)
 Compiling module 'score'("/home/muheet-ghani/fpga_project/src/score.v":1)
 WARN  (EX3791) : Expression size 7 truncated to fit in target size 6("/home/muheet-ghani/fpga_project/src/score.v":13)
 WARN  (EX3791) : Expression size 11 truncated to fit in target size 10("/home/muheet-ghani/fpga_project/src/vga_top.v":195)
@@ -73,13 +80,6 @@ Running technical mapping ...
 [75%] Tech-Mapping Phase 2 completed
 [80%] Tech-Mapping Phase 3 completed
 [90%] Tech-Mapping Phase 4 completed
-WARN  (NL0002) : The module "frame" instantiated to "point_p1_4" is swept in optimizing("/home/muheet-ghani/fpga_project/src/points.v":100)
-WARN  (NL0002) : The module "frame" instantiated to "point_p1_5" is swept in optimizing("/home/muheet-ghani/fpga_project/src/points.v":115)
-WARN  (NL0002) : The module "frame" instantiated to "point_p2_1" is swept in optimizing("/home/muheet-ghani/fpga_project/src/points.v":130)
-WARN  (NL0002) : The module "frame" instantiated to "point_p2_2" is swept in optimizing("/home/muheet-ghani/fpga_project/src/points.v":145)
-WARN  (NL0002) : The module "frame" instantiated to "point_p2_3" is swept in optimizing("/home/muheet-ghani/fpga_project/src/points.v":160)
-WARN  (NL0002) : The module "frame" instantiated to "point_p2_4" is swept in optimizing("/home/muheet-ghani/fpga_project/src/points.v":175)
-WARN  (NL0002) : The module "frame" instantiated to "point_p2_5" is swept in optimizing("/home/muheet-ghani/fpga_project/src/points.v":190)
 [95%] Generate netlist file "/home/muheet-ghani/fpga_project/impl/gwsynthesis/fpga_project.vg" completed
 WARN  (CK3000) : Can't calculate clocks' relationship between: "n273_3" and "u_Gowin_CLKDIV/clkdiv_inst/CLKOUT.default_gen_clk"
 WARN  (CK3000) : Can't calculate clocks' relationship between: "rst_Z" and "u_Gowin_CLKDIV/clkdiv_inst/CLKOUT.default_gen_clk"
