@@ -1,0 +1,90 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file '/home/muheet-ghani/fpga_project/src/ball.v'
+Analyzing Verilog file '/home/muheet-ghani/fpga_project/src/frame.v'
+Analyzing Verilog file '/home/muheet-ghani/fpga_project/src/gowin_clkdiv.v'
+Analyzing Verilog file '/home/muheet-ghani/fpga_project/src/gowin_rpll.v'
+Analyzing Verilog file '/home/muheet-ghani/fpga_project/src/paddle.v'
+Analyzing Verilog file '/home/muheet-ghani/fpga_project/src/text.v'
+Analyzing Verilog file '/home/muheet-ghani/fpga_project/src/uart_rx.v'
+Analyzing Verilog file '/home/muheet-ghani/fpga_project/src/uart_top.v'
+Analyzing Verilog file '/home/muheet-ghani/fpga_project/src/uart_tx.v'
+Analyzing Verilog file '/home/muheet-ghani/fpga_project/src/vga_top.v'
+Analyzing Verilog file '/home/muheet-ghani/fpga_project/src/score.v'
+Analyzing Verilog file '/home/muheet-ghani/fpga_project/src/points.v'
+Compiling module 'top'("/home/muheet-ghani/fpga_project/src/vga_top.v":2)
+Compiling module 'Gowin_rPLL'("/home/muheet-ghani/fpga_project/src/gowin_rpll.v":10)
+Compiling module 'Gowin_CLKDIV'("/home/muheet-ghani/fpga_project/src/gowin_clkdiv.v":10)
+Compiling module 'uart_top'("/home/muheet-ghani/fpga_project/src/uart_top.v":1)
+Compiling module 'uart_rx'("/home/muheet-ghani/fpga_project/src/uart_rx.v":1)
+WARN  (EX3791) : Expression size 14 truncated to fit in target size 13("/home/muheet-ghani/fpga_project/src/uart_rx.v":42)
+WARN  (EX3791) : Expression size 14 truncated to fit in target size 13("/home/muheet-ghani/fpga_project/src/uart_rx.v":45)
+WARN  (EX3791) : Expression size 4 truncated to fit in target size 3("/home/muheet-ghani/fpga_project/src/uart_rx.v":53)
+WARN  (EX3791) : Expression size 14 truncated to fit in target size 13("/home/muheet-ghani/fpga_project/src/uart_rx.v":60)
+WARN  (EX3791) : Expression size 3 truncated to fit in target size 2("/home/muheet-ghani/fpga_project/src/uart_rx.v":74)
+Compiling module 'uart_tx'("/home/muheet-ghani/fpga_project/src/uart_tx.v":1)
+WARN  (EX3791) : Expression size 26 truncated to fit in target size 25("/home/muheet-ghani/fpga_project/src/uart_tx.v":71)
+WARN  (EX3791) : Expression size 4 truncated to fit in target size 3("/home/muheet-ghani/fpga_project/src/uart_tx.v":80)
+WARN  (EX3791) : Expression size 26 truncated to fit in target size 25("/home/muheet-ghani/fpga_project/src/uart_tx.v":84)
+WARN  (EX3791) : Expression size 5 truncated to fit in target size 4("/home/muheet-ghani/fpga_project/src/uart_tx.v":92)
+WARN  (EX3791) : Expression size 26 truncated to fit in target size 25("/home/muheet-ghani/fpga_project/src/uart_tx.v":97)
+WARN  (EX3791) : Expression size 26 truncated to fit in target size 25("/home/muheet-ghani/fpga_project/src/uart_tx.v":104)
+WARN  (EX1998) : Net 'testMemory[11][7]' does not have a driver("/home/muheet-ghani/fpga_project/src/uart_tx.v":23)
+Compiling module 'paddle(X_LOC=1)'("/home/muheet-ghani/fpga_project/src/paddle.v":3)
+WARN  (EX3791) : Expression size 7 truncated to fit in target size 6("/home/muheet-ghani/fpga_project/src/paddle.v":39)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 6("/home/muheet-ghani/fpga_project/src/paddle.v":43)
+Compiling module 'paddle(X_LOC=37)'("/home/muheet-ghani/fpga_project/src/paddle.v":3)
+WARN  (EX3791) : Expression size 7 truncated to fit in target size 6("/home/muheet-ghani/fpga_project/src/paddle.v":39)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 6("/home/muheet-ghani/fpga_project/src/paddle.v":43)
+Compiling module 'ball'("/home/muheet-ghani/fpga_project/src/ball.v":23)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 6("/home/muheet-ghani/fpga_project/src/ball.v":72)
+WARN  (EX3791) : Expression size 7 truncated to fit in target size 6("/home/muheet-ghani/fpga_project/src/ball.v":76)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 6("/home/muheet-ghani/fpga_project/src/ball.v":80)
+WARN  (EX3791) : Expression size 7 truncated to fit in target size 6("/home/muheet-ghani/fpga_project/src/ball.v":84)
+WARN  (EX2420) : Latch inferred for net 'loc_x'; We do not recommend the use of latches in FPGA designs, as they may lead to timing problems("/home/muheet-ghani/fpga_project/src/ball.v":101)
+WARN  (EX2420) : Latch inferred for net 'loc_y'; We do not recommend the use of latches in FPGA designs, as they may lead to timing problems("/home/muheet-ghani/fpga_project/src/ball.v":113)
+Compiling module 'text(END_Y_LOC=13)'("/home/muheet-ghani/fpga_project/src/text.v":23)
+Compiling module 'frame(START_Y_LOC=14,END_Y_LOC=21)'("/home/muheet-ghani/fpga_project/src/frame.v":23)
+Compiling module 'frame(START_Y_LOC=21,END_Y_LOC=119)'("/home/muheet-ghani/fpga_project/src/frame.v":23)
+Compiling module 'points'("/home/muheet-ghani/fpga_project/src/points.v":1)
+Compiling module 'frame(START_Y_LOC=15,START_X_LOC=3,END_X_LOC=9)'("/home/muheet-ghani/fpga_project/src/frame.v":23)
+Compiling module 'frame(START_Y_LOC=15,START_X_LOC=5,END_X_LOC=11)'("/home/muheet-ghani/fpga_project/src/frame.v":23)
+Compiling module 'frame(START_Y_LOC=15,START_X_LOC=4,END_X_LOC=9)'("/home/muheet-ghani/fpga_project/src/frame.v":23)
+Compiling module 'score'("/home/muheet-ghani/fpga_project/src/score.v":1)
+WARN  (EX3791) : Expression size 7 truncated to fit in target size 6("/home/muheet-ghani/fpga_project/src/score.v":13)
+WARN  (EX3791) : Expression size 11 truncated to fit in target size 10("/home/muheet-ghani/fpga_project/src/vga_top.v":195)
+WARN  (EX3791) : Expression size 11 truncated to fit in target size 10("/home/muheet-ghani/fpga_project/src/vga_top.v":198)
+WARN  (EX3791) : Expression size 11 truncated to fit in target size 10("/home/muheet-ghani/fpga_project/src/vga_top.v":215)
+WARN  (EX3791) : Expression size 11 truncated to fit in target size 10("/home/muheet-ghani/fpga_project/src/vga_top.v":218)
+NOTE  (EX0101) : Current top module is "top"
+[5%] Running netlist conversion ...
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+WARN  (NL0002) : The module "frame" instantiated to "point_p1_4" is swept in optimizing("/home/muheet-ghani/fpga_project/src/points.v":100)
+WARN  (NL0002) : The module "frame" instantiated to "point_p1_5" is swept in optimizing("/home/muheet-ghani/fpga_project/src/points.v":115)
+WARN  (NL0002) : The module "frame" instantiated to "point_p2_1" is swept in optimizing("/home/muheet-ghani/fpga_project/src/points.v":130)
+WARN  (NL0002) : The module "frame" instantiated to "point_p2_2" is swept in optimizing("/home/muheet-ghani/fpga_project/src/points.v":145)
+WARN  (NL0002) : The module "frame" instantiated to "point_p2_3" is swept in optimizing("/home/muheet-ghani/fpga_project/src/points.v":160)
+WARN  (NL0002) : The module "frame" instantiated to "point_p2_4" is swept in optimizing("/home/muheet-ghani/fpga_project/src/points.v":175)
+WARN  (NL0002) : The module "frame" instantiated to "point_p2_5" is swept in optimizing("/home/muheet-ghani/fpga_project/src/points.v":190)
+[95%] Generate netlist file "/home/muheet-ghani/fpga_project/impl/gwsynthesis/fpga_project.vg" completed
+WARN  (CK3000) : Can't calculate clocks' relationship between: "n273_3" and "u_Gowin_CLKDIV/clkdiv_inst/CLKOUT.default_gen_clk"
+WARN  (CK3000) : Can't calculate clocks' relationship between: "rst_Z" and "u_Gowin_CLKDIV/clkdiv_inst/CLKOUT.default_gen_clk"
+WARN  (CK3000) : Can't calculate clocks' relationship between: "n286_3" and "u_Gowin_CLKDIV/clkdiv_inst/CLKOUT.default_gen_clk"
+WARN  (CK3000) : Can't calculate clocks' relationship between: "u_Gowin_CLKDIV/clkdiv_inst/CLKOUT.default_gen_clk" and "n273_3"
+WARN  (CK3000) : Can't calculate clocks' relationship between: "u_Gowin_CLKDIV/clkdiv_inst/CLKOUT.default_gen_clk" and "n286_3"
+[100%] Generate report file "/home/muheet-ghani/fpga_project/impl/gwsynthesis/fpga_project_syn.rpt.html" completed
+GowinSynthesis finish
