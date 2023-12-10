@@ -28,3 +28,22 @@ control.
 
 ## System Context Diagram
 ![System Context Diagram](https://github.com/Abdul-muheet-ghani/Pong-Game-Project/blob/main/doc/System%20Context.png)
+
+## Demo Video
+
+
+## Testimonial
+
+#### Author: 
+[Abdul Muheet Ghani](https://github.com/Abdul-muheet-ghani) Research Assistant at MERL-UITU.
+#### Under the Supervision Of:
+- [Dr.Ali Ahmed](mailto:aahmed@uit.edu) Research Assistant at MERL-UITU.
+- [Sajjad Ahmed](mailto:sahmed@uit.edu) Research Associate.
+#### Thanks: 
+- [Lushay Lab](https://lushaylabs.com/)
+
+## Future Work:
+This is version 1.0 of our course. We will continue this training and very soon release further versions. For any
+questions or to stay connected with us
+
+Feel free to [contact me](abdulmuheetghani4@gmail.com) for any queries or feedback.
