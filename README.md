@@ -25,3 +25,6 @@ control.
 4. [Lab 4: ](https://github.com/Abdul-muheet-ghani/Pong-Game-Project/tree/main/doc)Operation Of VGA Display
 5. [Lab 5: ](https://github.com/Abdul-muheet-ghani/Pong-Game-Project/tree/main/doc)Pong Game
 6. [Lab 6: ](https://github.com/Abdul-muheet-ghani/Pong-Game-Project/tree/main/doc)Integrate Keyboard with VGA for Game
+
+## System Context Diagram
+![System Context Diagram](https://github.com/Abdul-muheet-ghani/Pong-Game-Project/blob/main/doc/System%20Context.png)
