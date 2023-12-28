@@ -39,8 +39,10 @@ control.
 #### Under the Supervision Of:
 - [Dr.Ali Ahmed](mailto:aahmed@uit.edu) Research Assistant at MERL-UITU.
 - [Sajjad Ahmed](mailto:sahmed@uit.edu) Research Associate.
+#### Sponsored By:
+Edmund from [Symbiotic EDA](https://www.symbioticeda.com/). for sponsoring FPGA.
 #### Thanks: 
-- [Lushay Lab](https://lushaylabs.com/)
+- [Lushay Lab](https://lushaylabs.com/), (They’ve provided crucial resources and guidance throughout the project).
 
 ## Future Work:
 This is version 1.0 of our course. We will continue this training and very soon release further versions. For any
