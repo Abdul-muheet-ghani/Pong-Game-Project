@@ -30,7 +30,7 @@ control.
 ![System Context Diagram](https://github.com/Abdul-muheet-ghani/Pong-Game-Project/blob/main/doc/System%20Context.png)
 
 ## Demo Video
-file:///home/muheet/Downloads/WhatsApp%20Video%202024-10-12%20at%2010.53.09%20PM.mp4
+[file:///home/muheet/Downloads/WhatsApp%20Video%202024-10-12%20at%2010.53.09%20PM.mp4](https://github.com/Abdul-muheet-ghani/Pong-Game-Project/blob/main/doc/WhatsApp%20Video%202024-10-12%20at%2010.53.09%20PM.mp4)
 
 
 ## Testimonial
