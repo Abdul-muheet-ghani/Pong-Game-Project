@@ -29,6 +29,9 @@ control.
 ## System Context Diagram
 ![System Context Diagram](https://github.com/Abdul-muheet-ghani/Pong-Game-Project/blob/main/doc/System%20Context.png)
 
+## ![Screenshot from 2024-10-13 12-41-57](https://github.com/user-attachments/assets/e3916c70-cf9f-4f13-8e95-72724a81d226)
+
+
 ## Demo Video
 [file:///home/muheet/Downloads/WhatsApp%20Video%202024-10-12%20at%2010.53.09%20PM.mp4](https://github.com/Abdul-muheet-ghani/Pong-Game-Project/blob/main/doc/WhatsApp%20Video%202024-10-12%20at%2010.53.09%20PM.mp4)
 
